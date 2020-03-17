@@ -1,0 +1,30 @@
+//Load all posts
+export const POSTS_LOAD = 'POSTS_LOAD';
+export const POSTS_LOAD_SUCCESS = 'POSTS_LOAD_SUCCESS';
+export const POSTS_LOAD_ERROR = 'POSTS_LOAD_ERROR';
+
+//Load selected post
+export const SELECTED_POST = 'SELECTED_POST';
+export const SELECTED_POST_LOAD_SUCCESS = 'SELECTED_POST_LOAD_SUCCESS';
+export const SELECTED_POST_LOAD_ERROR = 'SELECTED_POST_LOAD_ERROR';
+
+//Create new post
+export const CREATE_POST = 'CREATE_POST';
+export const CREATE_POST_SUCCESS = 'CREATE_POST_SUCCESS';
+export const CREATE_POST_ERROR = 'CREACTE_POST_ERROR';
+
+//Delete post
+export const DELETE_POST = 'DELETE_POST';
+export const DELETE_POST_SUCCESS = 'DELETE_POST_SUCCESS';
+export const DELETE_POST_ERROR = 'DELETE_POST_ERROR';
+
+//Edit post
+export const EDIT_POST = 'EDIT_POST';
+export const EDIT_POST_SUCCESS = 'EDIT_POST_SUCCESS';
+export const EDIT_POST_ERROR = 'EDIT_POST_ERROR';
+
+//Update comment
+
+export const UPDATE_COMMENT = 'UPDATE_COMMENT';
+export const UPDATE_COMMENT_SUCCESS = 'EPDATE_COMMENT_SUCCESS';
+export const UPDATE_COMMENT_ERROR = 'UPDATE_COMMENT_ERROR';
